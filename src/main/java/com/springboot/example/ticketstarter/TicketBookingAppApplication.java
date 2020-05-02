@@ -23,14 +23,14 @@ public class TicketBookingAppApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		Ticket ticket = new Ticket();
-		ticket.setAge(21);
-		ticket.setPassengerName("Rohan");
-		ticket.setSeatNo("A1-23");
-		ticket.setStartPoint("Ajmer");
-		ticket.setDestination("Delhi");
-		ticket.setTrainNo(1232l);
+		ticket.setAge(30);
+		ticket.setPassengerName("Anuj");
+		ticket.setSeatNo("A2-32");
+		ticket.setStartPoint("Amritsar");
+		ticket.setDestination("Chandighar");
+		ticket.setTrainNo(4325l);
 		ticket.setTravelDate(new Date());
-		ticket.setEmail("rohan@gmail.com");
+		ticket.setEmail("anuj@gmail.com");
 		ticketService.createTicket(ticket);
 	}
 }
